@@ -81,9 +81,9 @@ typedef struct {
 Vector * crearVector(int n) {
 
   Vector *a;
-  a = (Vector*) calloc(n, sizeof(Vector));
-  a->datos = (int*) calloc (n,sizeof(int));
-   return a;
+  a = (Vector*) calloc(n,sizeof(int));
+  a->capacidad = n;
+  return a;
 }
 
 /*
