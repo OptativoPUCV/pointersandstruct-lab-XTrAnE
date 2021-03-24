@@ -61,3 +61,8 @@ Wed Mar 24 21:54:12 UTC 2021:
  1 file changed, 2 insertions(+), 2 deletions(-)
  tests:  0|0
 901c651
+Wed Mar 24 21:55:26 UTC 2021: 
+ exercises.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+ tests:  0|0
+f5a037b
