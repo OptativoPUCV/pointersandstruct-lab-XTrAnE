@@ -94,6 +94,8 @@ la cual asigna el valor a la posición i del vector v.
 */
 void asignarValor(Vector * v, int i, int valor) {
  v[i].datos= &valor;
+ printf("%d", valor);
+ printf("%d", *v[i].datos);
 }
 
 /*
@@ -102,7 +104,7 @@ Programe la función int obtenerValor(Vector * v, int i),
 la cual retorna el valor en la posición i del vector v.
 */
 int obtenerValor(Vector * v, int i) {
-   int *pos = NULL;
+   int *pos;
    pos = v[i].datos; 
    return *pos;
 }
@@ -115,8 +117,8 @@ actualiza el vector `c` con el resultado de la suma.
 void sumaV(Vector * a, Vector * b, Vector * c) {
   int i;
 
-  for(i=0;a->capacidad;i++){
-    c[i].datos = a[i].datos + *b[i].datos;
+  for(i=0;c->capacidad;i++){
+    c->datos[i] = a->datos[i] + b->datos[i];
   }
 }
 
