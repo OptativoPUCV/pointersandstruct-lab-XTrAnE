@@ -106,3 +106,9 @@ Wed Mar 24 22:25:50 UTC 2021:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 bc179f5
+Wed Mar 24 22:53:32 UTC 2021: 
+ exercises.c | 6 ------
+ 1 file changed, 6 deletions(-)
+ tests:  6|2
+total_score: 50/70
+21ab98d
