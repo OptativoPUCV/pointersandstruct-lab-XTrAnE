@@ -116,7 +116,7 @@ void sumaV(Vector * a, Vector * b, Vector * c) {
   int i;
 
   for(i=0;a->capacidad;i++){
-    c->datos[i] = a->datos[i] + b->datos[i];
+    c[i].datos = a[i].datos + *b[i].datos;
   }
 }
 
