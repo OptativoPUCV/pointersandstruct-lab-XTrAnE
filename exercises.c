@@ -114,8 +114,8 @@ actualiza el vector `c` con el resultado de la suma.
 */
 void sumaV(Vector * a, Vector * b, Vector * c) {
   
-  for (int i=0; i == 3;i++){  printf("Here");
-  
+  for (int i=0; i == 3;i++){
+    printf("Here");
     c->datos[i] = a->datos[i] + b->datos[i];
     printf("%d", c->datos[i]);
   }
