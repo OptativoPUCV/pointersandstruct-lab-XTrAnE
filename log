@@ -122,3 +122,8 @@ Thu Mar 25 00:18:57 UTC 2021:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 0221cb8
+Thu Mar 25 00:21:01 UTC 2021: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  0|0
+f972c4b
